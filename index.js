@@ -16,7 +16,7 @@
   green_value.innerHTML = `<span>${green_input.value}</span>`
 
 
-  input_slider.addEventListener('change', event => {
+  input_slider.addEventListener('mousemove', event => {
     if (event.target.matches("input")) {
       body.style = `background-color:rgb(${red_input.value},${green_input.value},${blue_input.value})`
       red_value.innerHTML = `<span>${red_input.value}</span>`
